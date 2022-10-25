@@ -7,7 +7,7 @@ terraform {
  }
 }
 provider "google" {
- credentials = file("/home/ubuntu/service-account-key1.json")
+ credentials = file("/home/ubuntu/key-jenkins.json")
  project = "green-entity-366409"
  region = "us-central1"
  zone = "us-central1-c"
